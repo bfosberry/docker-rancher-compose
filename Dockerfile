@@ -1,9 +1,9 @@
 FROM debian:8.1
 
-MAINTAINER Vincenzo FERME <info@vincenzoferme.it>
+MAINTAINER Brendan Fosberry <brendan.fosberry@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV RANCHER_COMPOSE_VERSION v0.2.5
+ENV RANCHER_COMPOSE_VERSION v0.12.0
 
 RUN apt-get update -q \
 	&& apt-get install -y -q --no-install-recommends curl ca-certificates tar wget \
