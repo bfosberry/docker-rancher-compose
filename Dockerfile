@@ -3,7 +3,7 @@ FROM debian:8.1
 MAINTAINER Brendan Fosberry <brendan.fosberry@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV RANCHER_COMPOSE_VERSION v0.12.0
+ENV RANCHER_COMPOSE_VERSION v0.12.1
 
 RUN apt-get update -q \
 	&& apt-get install -y -q --no-install-recommends curl ca-certificates tar wget \
